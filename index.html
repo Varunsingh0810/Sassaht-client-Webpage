@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sassaht</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <div class="navbar navbar-expand-lg">
+                    <a class="navbar-brand me-0" href="#">
+                    <img src="/sassaht.png" class="img-fluid" alt="Logo">
+                    </a>
+      
+                    <div  class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link active " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Blogs</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">About us</a></li>
+                              <li><a class="dropdown-item" href="#">Services</a></li>
+                              <li><a class="dropdown-item" href="#">Team Portfolio</a></li>
+                              <li><a class="dropdown-item" href="#">Blog</a></li>
+                              <li><a class="dropdown-item" href="#">Element</a></li>
+                              <li><a class="dropdown-item" href="#">FAQ</a></li>
+                              <li><a class="dropdown-item" href="#">Pricing</a></li>
+                              <li><a class="dropdown-item" href="#">Utility</a></li>
+                              <li><a class="dropdown-item" href="#">Account</a></li>
+                              <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="toggle-menu" id="toggle-menu">
+                      <div class="container ">
+                        <div class="row align-items-center text-center">
+                          <div class="col-10 mx-auto">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active " aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Prices</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Blogs</a>
+                              </li>
+                              
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Pages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">About us</a></li>
+                                  <li><a class="dropdown-item" href="#">Services</a></li>
+                                  <li><a class="dropdown-item" href="#">Team Portfolio</a></li>
+                                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                                  <li><a class="dropdown-item" href="#">Element</a></li>
+                                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                  <li><a class="dropdown-item" href="#">Pricing</a></li>
+                                  <li><a class="dropdown-item" href="#">Utility</a></li>
+                                  <li><a class="dropdown-item" href="#">Account</a></li>
+                                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <div class="align-items-center">
+                                  <div><i class="ri-phone-line"></i><a href="tel:+91-234-567-8900"> +91-234-567-8900</a></div>
+                                 </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button id="toggle-btn" class="navbar-toggler collapsed" ><i class="ri-menu-line"></i></button>
+                    <div class="right-nav">
+                       <div class="d-flex align-items-center justify-content-end">
+                        <div>Call:<span class="mx-3"><a href="tel:+91-234-567-8900"> +91-234-567-8900</a></span></div>
+                        <button class="btn btn-sm"><span>Login</span></button>
+                       </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </nav>
+        </header>
+        <main>
+            <section class="part1">
+              <!-- Background Animation -->
+              <svg version="1.1" id="home-anim" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  x="0px" y="0px" viewBox="0 0 1820 1080" style="width: 100%; height: 100%; object-fit: cover;" preserveAspectRatio="xMidYMid slice" xml:space="preserve">
+
+                <g id="home">
+                  <defs>
+                    <rect id="masque" y="0.4" width="1820" height="1080" />
+                  </defs>
+                  <clipPath id="cache">
+                    <use xlink:href="#masque" style="overflow:visible;" />
+                  </clipPath>
+                  <g id="light-blue">
+                    <line x1="630.8" y1="894.3" x2="476.3" y2="1048.8" />
+                    <line x1="858.2" y1="823.9" x2="1012.7" y2="669.4" />
+                    <line x1="1066.9" y1="458.2" x2="912.4" y2="612.7" />
+                    <line x1="1294.3" y1="387.8" x2="1448.8" y2="233.3" />
+                    <line x1="1503" y1="22.1" x2="1348.5" y2="176.6" />
+                    <line x1="895.6" y1="1166.6" x2="1050.1" y2="1012.1" />
+                    <line x1="1104.3" y1="800.9" x2="949.8" y2="955.4" />
+                    <line x1="1331.7" y1="730.5" x2="1486.2" y2="576" />
+                    <line x1="1540.4" y1="364.8" x2="1385.9" y2="519.3" />
+                    <line x1="1767.8" y1="294.4" x2="1922.3" y2="139.9" />
+                    <line x1="1976.5" y1="-71.3" x2="1822" y2="83.2" />
+                    <line x1="1369.1" y1="1073.2" x2="1523.6" y2="918.7" />
+                    <line x1="1577.8" y1="707.5" x2="1423.3" y2="862" />
+                    <line x1="1805.2" y1="637.1" x2="1959.7" y2="482.6" />
+                    <line x1="1624" y1="1041.4" x2="1469.4" y2="1195.9" />
+                    <line x1="-134.7" y1="674.9" x2="19.8" y2="520.4" />
+                    <line x1="74" y1="309.2" x2="-80.5" y2="463.7" />
+                    <line x1="301.4" y1="238.8" x2="455.9" y2="84.3" />
+                    <line x1="510.1" y1="-126.9" x2="355.6" y2="27.6" />
+                    <line x1="-88.6" y1="1008.9" x2="65.9" y2="854.4" />
+                    <line x1="120.1" y1="643.1" x2="-34.4" y2="797.7" />
+                    <line x1="347.5" y1="572.8" x2="502" y2="418.3" />
+                    <line x1="556.2" y1="207.1" x2="401.7" y2="361.6" />
+                    <line x1="783.6" y1="136.7" x2="938.1" y2="-17.8" />
+                    <line x1="157.6" y1="985.8" x2="3" y2="1140.3" />
+                    <line x1="384.9" y1="915.5" x2="539.4" y2="760.9" />
+                    <line x1="593.6" y1="549.7" x2="439.1" y2="704.3" />
+                    <line x1="821" y1="479.4" x2="975.5" y2="324.9" />
+                    <line x1="1029.7" y1="113.6" x2="875.2" y2="268.2" />
+                    <line x1="1257.1" y1="43.3" x2="1411.6" y2="-111.2" />
+                  </g>
+                  <g id="red">
+                    <line x1="794.4" y1="883.4" x2="639.8" y2="1037.9" />
+                    <line x1="694.6" y1="834.8" x2="849.2" y2="680.3" />
+                    <line x1="1230.4" y1="447.3" x2="1075.9" y2="601.8" />
+                    <line x1="1130.7" y1="398.7" x2="1285.2" y2="244.2" />
+                    <line x1="1666.5" y1="11.2" x2="1512" y2="165.7" />
+                    <line x1="732" y1="1177.5" x2="886.6" y2="1023" />
+                    <line x1="1267.9" y1="790" x2="1113.3" y2="944.5" />
+                    <line x1="1168.1" y1="741.4" x2="1322.7" y2="586.9" />
+                    <line x1="1703.9" y1="353.9" x2="1549.4" y2="508.4" />
+                    <line x1="1604.2" y1="305.3" x2="1758.7" y2="150.8" />
+                    <line x1="1205.5" y1="1084.1" x2="1360.1" y2="929.6" />
+                    <line x1="1741.4" y1="696.5" x2="1586.8" y2="851.1" />
+                    <line x1="1641.6" y1="648" x2="1796.2" y2="493.5" />
+                    <line x1="1787.5" y1="1030.5" x2="1633" y2="1185" />
+                    <line x1="1687.8" y1="981.9" x2="1842.3" y2="827.4" />
+                    <line x1="200.1" y1="-44.4" x2="45.6" y2="110.1" />
+                    <line x1="237.5" y1="298.3" x2="83" y2="452.8" />
+                    <line x1="137.8" y1="249.7" x2="292.3" y2="95.2" />
+                    <line x1="673.6" y1="-137.8" x2="519.1" y2="16.7" />
+                    <line x1="283.7" y1="632.2" x2="129.2" y2="786.8" />
+                    <line x1="184" y1="583.7" x2="338.5" y2="429.2" />
+                    <line x1="719.8" y1="196.2" x2="565.2" y2="350.7" />
+                    <line x1="620" y1="147.6" x2="774.6" y2="-6.9" />
+                    <line x1="321.1" y1="974.9" x2="166.6" y2="1129.4" />
+                    <line x1="221.4" y1="926.4" x2="375.9" y2="771.8" />
+                    <line x1="757.2" y1="538.8" x2="602.7" y2="693.4" />
+                    <line x1="657.5" y1="490.3" x2="812" y2="335.8" />
+                    <line x1="1193.3" y1="102.7" x2="1038.7" y2="257.3" />
+                    <line x1="1093.5" y1="54.2" x2="1248.1" y2="-100.3" />
+                  </g>
+                  <g id="blue">
+                    <line x1="225.8" y1="1151" x2="534.9" y2="841.9" />
+                    <line x1="827.1" y1="1003.3" x2="518" y2="1312.3" />
+                    <line x1="661.9" y1="714.9" x2="971" y2="405.9" />
+                    <line x1="1263.1" y1="567.2" x2="954.1" y2="876.3" />
+                    <line x1="1098" y1="278.8" x2="1407.1" y2="-30.2" />
+                    <line x1="1699.2" y1="131.1" x2="1390.2" y2="440.2" />
+                    <line x1="699.3" y1="1057.6" x2="1008.4" y2="748.5" />
+                    <line x1="1300.6" y1="909.9" x2="991.5" y2="1218.9" />
+                    <line x1="1135.4" y1="621.5" x2="1444.5" y2="312.4" />
+                    <line x1="1736.6" y1="473.8" x2="1427.6" y2="782.8" />
+                    <line x1="1571.5" y1="185.4" x2="1880.6" y2="-123.6" />
+                    <line x1="1172.8" y1="964.2" x2="1481.9" y2="655.1" />
+                    <line x1="1774.1" y1="816.5" x2="1465" y2="1125.5" />
+                    <line x1="1608.9" y1="528.1" x2="1918" y2="219" />
+                    <line x1="1219" y1="1298.1" x2="1528" y2="989.1" />
+                    <line x1="1655.1" y1="862" x2="1964.1" y2="553" />
+                    <line x1="232.8" y1="75.5" x2="-76.2" y2="384.6" />
+                    <line x1="270.2" y1="418.2" x2="-38.8" y2="727.3" />
+                    <line x1="105.1" y1="129.8" x2="414.2" y2="-179.2" />
+                    <line x1="706.3" y1="-17.9" x2="397.3" y2="291.2" />
+                    <line x1="-284.8" y1="899.9" x2="24.2" y2="590.8" />
+                    <line x1="316.4" y1="752.2" x2="7.3" y2="1061.2" />
+                    <line x1="151.3" y1="463.8" x2="460.3" y2="154.7" />
+                    <line x1="752.5" y1="316.1" x2="443.4" y2="625.1" />
+                    <line x1="587.3" y1="27.7" x2="896.4" y2="-281.4" />
+                    <line x1="1188.6" y1="-120" x2="879.5" y2="189" />
+                    <line x1="-247.4" y1="1242.5" x2="61.6" y2="933.5" />
+                    <line x1="188.7" y1="806.4" x2="497.7" y2="497.4" />
+                    <line x1="789.9" y1="658.8" x2="480.8" y2="967.8" />
+                    <line x1="624.8" y1="370.4" x2="933.8" y2="61.3" />
+                    <line x1="1226" y1="222.7" x2="916.9" y2="531.7" />
+                    <line x1="1662.1" y1="-213.4" x2="1353" y2="95.6" />
+                  </g>
+                </g>
+              </svg>
+              <!-- Background Animation End -->
+                <div class="banner" >
+                    <div class="container px-md-2 px-4">
+                        <div class="banr1 row align-items-center">
+                            <div class="col-lg-6 col-md-12 col-sm-12 mx-auto position-relative">
+                                <img src="/banner/sticker01.png" alt="">
+                                <div class="bulb position-absolute">
+                                  <img class="image-fluid bulb-img " src="/banner/bulb.png" alt="">
+                                </div>
+                            </div>
+                            <div class="heading col-lg-6 col-md-12 col-sm-12">
+                                <h5>Welcome to Sassaht</h5>
+                                <h1 class="mb-4">Build Your Website <br> With <span>Sassaht</span> Code.</h1>
+                                <p class="lead mb-4 text-secondary">Sassaht Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                                <button class="btn learn text-white"><span>Learn More</span></button>
+                                <button class="btn contact"><span>Contact Us</span></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section>
+              <div class="container  px-md-2 px-4">
+                <div class="row align-items-center">
+                  <div class="feature-card col-lg-4 col-md-12 gy-5">
+                    <div class="feature">
+                      <svg class="icon-vivus bd-color-1 feather feather-sliders" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"  stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4,21L4,14" style="stroke-dasharray: 7, 9; stroke-dashoffset: 0;"></path>
+                        <path d="M4,10L4,3" style="stroke-dasharray: 7, 9; stroke-dashoffset: 0;"></path>
+                        <path d="M12,21L12,12" style="stroke-dasharray: 9, 11; stroke-dashoffset: 0;"></path>
+                        <path d="M12,8L12,3" style="stroke-dasharray: 5, 7; stroke-dashoffset: 0;"></path>
+                        <path d="M20,21L20,16" style="stroke-dasharray: 5, 7; stroke-dashoffset: 0;"></path>
+                        <path d="M20,12L20,3" style="stroke-dasharray: 9, 11; stroke-dashoffset: 0;"></path>
+                        <path d="M1,14L7,14" style="stroke-dasharray: 6, 8; stroke-dashoffset: 0;"></path>
+                        <path d="M9,8L15,8" style="stroke-dasharray: 6, 8; stroke-dashoffset: 0;"></path>
+                        <path d="M17,16L23,16" style="stroke-dasharray: 6, 8; stroke-dashoffset: 0;"></path>
+                      </svg>
+                      <h5>Design and Block</h5>
+                      <p>The wise man therefore always holds in these matters to this Sassaht of selection</p>
+                      <a class="arrow-icon mt-4">
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="feature-card col-lg-4 col-md-12 gy-5">
+                    <div class="feature">
+                      <svg class="icon-vivus bd-color-2 feather feather-settings" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"  stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9,12A3,3 0,1,1 15,12A3,3 0,1,1 9,12" style="stroke-dasharray: 19, 21; stroke-dashoffset: 0;"></path>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" style="stroke-dasharray: 84, 86; stroke-dashoffset: 0;"></path>
+                      </svg>
+                      <h5>Easy Customizable</h5>
+                      <p>The wise man therefore always holds in these matters to this Sassaht of selection</p>
+                      <a class="arrow-icon mt-4">
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="feature-card col-lg-4 col-md-12 gy-5">
+                    <div class="feature">
+                      <svg class="icon-vivus bd-color-1 feather feather-layout" xmlns="http://www.w3.org/2000/svg"  width="100" height="100" viewBox="0 0 24 24"  stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                        <path width="18" height="18" d="M 5,3 L 19,3 A 2,2,0,0,1,21,5 L 21,19 A 2,2,0,0,1,19,21 L 5,21 A 2,2,0,0,1,3,19 L 3,5 A 2,2,0,0,1,5,3" style="stroke-dasharray: 69, 71; stroke-dashoffset: 0;"></path>
+                        <path d="M3,9L21,9" style="stroke-dasharray: 18, 20; stroke-dashoffset: 0;"></path>
+                        <path d="M9,21L9,9" style="stroke-dasharray: 12, 14; stroke-dashoffset: 0;"></path>
+                      </svg>
+                      <h5>Fully Responsive</h5>
+                      <p>The wise man therefore always holds in these matters to this Sassaht of selection</p>
+                      <a class="arrow-icon mt-4">
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="position-relative">
+              <div class="padd-full">
+                <div class="bg-circle"></div>
+              <div class="container  px-md-2 px-4">
+                <div class="row align-items-center">
+                  <div class="col-lg-7 col-12 p-0 pe-lg-5 sec-1">
+                    <div class="image-section">
+                      <img class="image-anal img-fluid " src="/charts/03.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 ms-auto mt-5 mt-lg-0">
+                    <div class="image-title">
+                      <h2>
+                        <span>Sassaht For You</span><br>Startup With Sass
+                      </h2>
+                      <div class="border-anim">
+                        <div class="left-border"></div>
+                        <div class="right-border"></div>
+                      </div>
+                      <ul class="list-unstyled list-detail mb-5 text-secondary">
+                        <li  class="mb-3"><i class="ri-checkbox-circle-fill"></i> Distinctively brand adaptive innovation</li>
+                        <li><i class="ri-checkbox-circle-fill"></i> You need to be sure there isn't anything</li>
+                      </ul>
+                      <button class="btn btn1 text-white"><span>Contact Us</span></button>
+                      <button class="btn btn2 btn-white"><span>Learn More</span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </section>
+            <section class="position-relative service-3">
+              <div class="container  px-md-2 px-4">
+                <div class="row align-items-center">
+                  <div class="col-lg-4 col-12">
+                    <div class="image-title">
+                      <h2>
+                        <span>Sassaht What</span><br>We Do Offer
+                      </h2>
+                      <div class="border-anim">
+                        <div class="left-border"></div>
+                        <div class="right-border"></div>
+                      </div>
+                      <p>Powerfull Template customer service with our tools, hendrerit omittantur mel, es vidit Ius te omittantur meles vidit Ius te altera essent incorrupte.</p>
+                      
+                    </div>
+                    <button class="btn view text-white"><span>View All</span></button>
+                  </div>
+                  <div class="col-lg-8 col-12 mt-lg-0 mt-5">
+                    <div class="row anim">
+                      <div class="col-lg-6 col-12 mx-auto">
+                        <div class="feature2">
+                          <i class="ri-wordpress-fill"></i>
+                          <h5>Web Development</h5>
+                          <p>The wise man therefore always holds in these matters to this Sassaht of selection</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6 col-12 mx-auto mt-5">
+                        <div class="feature2">
+                          <i class="ri-vip-diamond-line"></i>
+                          <h5>UI/UX Design</h5>
+                          <p>The wise man therefore always holds in these matters to this Sassaht of selection</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-12 mx-auto mt-5">
+                        <div class="feature2">
+                          <i class="ri-git-branch-line"></i>
+                          <h5>Clean Code</h5>
+                          <p>The wise man therefore always holds in these matters to this Sassaht of selection</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row anim">
+                      <div class="col-lg-6 col-12 mx-auto mt-5">
+                        <div class="feature2">
+                          <i class="ri-lightbulb-line"></i>
+                          <h5>SEO & Marketing</h5>
+                          <p>The wise man therefore always holds in these matters to this Sassaht of selection</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="position-relative">
+              <div class="bg-circle2"></div>
+             <div class="container  px-md-2 px-4">
+              <div class="row align-items-center">
+                <div class="col-lg-6 col-12 position-relative image-card">
+                  <div class="img-startup">
+                    <img class="image-fluid" src="/charts/startup.png " alt="">
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12 ms-auto mt-5 mt-lg-0">
+                  <div class="image-title">
+                    <h2>
+                      <span>Unique Startup Landing<br>Page</span>How It Work
+                    </h2>
+                    <div class="border-anim">
+                      <div class="left-border"></div>
+                      <div class="right-border"></div>
+                    </div>
+                    <p class="text-secondary">Provide awesome customer service with our tools, hendrerit omittantur mel, es vidit Ius te omittantur mel.</p>
+                    <div class="row">
+                      <div class="col-lg-6 col-12"> 
+                        <ul class="list-unstyled list-detail mb-lg-5 mb-3 text-secondary">
+                          <li class="mb-3"><i class="ri-checkbox-circle-fill"></i>It is long established</li>
+                          <li class="mb-3"><i class="ri-checkbox-circle-fill"></i> Distinctively innovation</li>
+                          <li><i class="ri-checkbox-circle-fill"></i>You need there anything</li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6 col-12"> 
+                        <ul class="list-unstyled list-detail mb-5 text-secondary">
+                          <li  class="mb-3"><i class="ri-checkbox-circle-fill"></i> The standard of sassaht</li>
+                          <li class="mb-3"><i class="ri-checkbox-circle-fill"></i> Sassaht Powerfull Template</li>
+                          <li><i class="ri-checkbox-circle-fill"></i>Recently desktop publishing</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <button class="btn btn2 btn-white"><span>Learn More</span></button>
+                  </div>
+                </div>
+              </div>
+             </div>
+            </section>
+            <section>
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-lg-4 col-md-12">
+                    <div class="price-card">
+                      <div class="price-header">
+                        <h3>Starter</h3>
+                        <div class="price-tag">
+                          <h1>$99</h1>
+                        </div>
+                      </div>
+                      <div class="price-title">
+                        <ul class="list-unstyled list-detail text-secondary">
+                          <li  class="mb-3"><i class="ri-checkbox-circle-fill"></i> The standard of sassaht</li>
+                          <li class="mb-3"><i class="ri-checkbox-circle-fill"></i> Sassaht Powerfull Template</li>
+                          <li class="mb-3"><i class="ri-checkbox-circle-fill"></i>Recently desktop publishing</li>
+                        </ul>
+                      </div>
+                      <button class="btn mt-5 btn-white"><span>Get It Now</span></button>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-12 mt-lg-0 mt-5">
+                    <div class="price-card main-card">
+                      <div class="price-header">
+                        <h3>Premium</h3>
+                        <div class="price-tag">
+                          <h1>$199</h1>
+                        </div>
+                      </div>
+                      <div class="price-title">
+                        <ul class="list-unstyled list-detail text-secondary">
+                          <li  class="mb-3"><i class="ri-checkbox-circle-fill"></i> The standard of sassaht</li>
+                          <li class="mb-3"><i class="ri-checkbox-circle-fill"></i> Sassaht Powerfull Template</li>
+                          <li class="mb-3"><i class="ri-checkbox-circle-fill"></i>Recently desktop publishing</li>
+                        </ul>
+                      </div>
+                      <button class="btn mt-5 btn-white text-white"><span>Get It Now</span></button>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-12 mt-lg-0 mt-5">
+                    <div class="price-card">
+                      <div class="price-header">
+                        <h3>Standard</h3>
+                        <div class="price-tag">
+                          <h1>$299</h1>
+                        </div>
+                      </div>
+                      <div class="price-title">
+                        <ul class="list-unstyled list-detail text-secondary">
+                          <li  class="mb-3"><i class="ri-checkbox-circle-fill"></i> The standard of sassaht</li>
+                          <li class="mb-3"><i class="ri-checkbox-circle-fill"></i> Sassaht Powerfull Template</li>
+                          <li class="mb-3"><i class="ri-checkbox-circle-fill"></i>Recently desktop publishing</li>
+                        </ul>
+                      </div>
+                      <button class="btn mt-5 btn-white"><span>Get It Now</span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="position-relative service-4">
+              <div class="container">
+                <div class="row justify-content-center align-items-center ">
+                  <div class="col-lg-8 col-12">
+                    <div class="image-title text-center">
+                      <h2>
+                        <span>See Our</span> Latest Blog
+                      </h2>
+                      <div class="border-anim mx-auto">
+                        <div class="left-border"></div>
+                        <div class="right-border"></div>
+                      </div>
+                      <p class="text-secondary">Powerfull Template customer service with our tools, hendrerit omittantur mel, es vidit Ius te omittantur meles vidit Ius te altera essent incorrupte.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-12">
+                  <div class="post">
+                    <div class="post-image">
+                      <img class="img-fluid h-100 w-100" src="/blogs/blog01.jpg" alt="">
+                    </div>
+                    <div class="post-desc">
+                      <div class="post-meta">
+                        <ul class="list-inline">
+                          <li><i class="ri-calendar-2-line"></i> 23 Jan, 2019</li>
+                          <li><i class="ri-account-pin-circle-line"></i> By ThemeHt</li>
+                        </ul>
+                      </div>
+                      <div class="post-title">
+                        <h4><a href="">Sassaht Built With Powerfull Sass</a></h4>
+                      </div>
+                      <div class="post-categories mt-4">
+                        <ul class="list-inline">
+                          <li>Sass</li>
+                          <li>Marketing</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
+                  <div class="post">
+                    <div class="post-image">
+                      <img class="img-fluid h-100 w-100" src="/blogs/blog02.jpg" alt="">
+                    </div>
+                    <div class="post-desc">
+                      <div class="post-meta">
+                        <ul class="list-inline">
+                          <li><i class="ri-calendar-2-line"></i> 23 Jan, 2019</li>
+                          <li><i class="ri-account-pin-circle-line"></i> By ThemeHt</li>
+                        </ul>
+                      </div>
+                      <div class="post-title">
+                        <h4><a href="">latest Modern design in features</a></h4>
+                      </div>
+                      <div class="post-categories mt-4">
+                        <ul class="list-inline">
+                          <li>Sass</li>
+                          <li>Marketing</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
+                  <div class="post">
+                    <div class="post-image">
+                      <img class="img-fluid h-100 w-100" src="/blogs/blog03 (1).jpg" alt="">
+                    </div>
+                    <div class="post-desc">
+                      <div class="post-meta">
+                        <ul class="list-inline">
+                          <li><i class="ri-calendar-2-line"></i> 23 Jan, 2019</li>
+                          <li><i class="ri-account-pin-circle-line"></i> By ThemeHt</li>
+                        </ul>
+                      </div>
+                      <div class="post-title">
+                        <h4><a href="">All Powerful Design feature In Sassaht</a></h4>
+                      </div>
+                      <div class="post-categories mt-4">
+                        <ul class="list-inline">
+                          <li>Sass</li>
+                          <li>Marketing</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section>
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-md col-sm-4">
+                    <div class="client-logo">
+                      <img class="img-fluid" src="/clients/Sofino.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md col-sm-4 mt-3 mt-sm-0">
+                    <div class="client-logo">
+                      <img class="img-fluid" src="/clients/02hotech.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md col-sm-4 mt-3 mt-sm-0">
+                    <div class="client-logo">
+                      <img class="img-fluid" src="/clients/loptus3.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md col-sm-6 mt-3 mt-md-0">
+                    <div class="client-logo">
+                      <img class="img-fluid" src="/clients/hec05.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md col-sm-6 mt-3 mt-md-0">
+                    <div class="client-logo">
+                      <img class="img-fluid" src="/clients/boq04.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="row align-items-center mt-4">
+                  <div class="col-md col-sm-6 ms-auto">
+                    <div class="client-logo">
+                      <img class="img-fluid" src="/clients/thomso06.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md col-sm-6 mt-3 mt-md-0">
+                    <div class="client-logo">
+                      <img class="img-fluid" src="/clients/ovell08.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md col-sm-6 mt-3 mt-md-0">
+                    <div class="client-logo">
+                      <img class="img-fluid" src="/clients/james07 (1).png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md col-sm-6 mt-3 mt-md-0 me-auto">
+                    <div class="client-logo">
+                      <img class="img-fluid" src="/clients/Sofino.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section>
+              <div class="container">
+                <div class="row justify-content-center align-items-center ">
+                  <div class="col-lg-8 col-12">
+                    <div class="image-title text-center">
+                      <h2>
+                        <span>Subscribe Our</span> New Channel
+                      </h2>
+                      <div class="border-anim mx-auto">
+                        <div class="left-border"></div>
+                        <div class="right-border"></div>
+                      </div>
+                      <p class="text-secondary">Get started for 1 Month free trial No Purchace required.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-8 col-md-10">
+                  <div class="subscribe-form">
+                    <form id="sub-form" class="group d-md-flex align-items-center">
+                      <input type="email" value="" name="EMAIL" class="email" id="sub-email" placeholder="Enter Email Address" required="">
+                      <input class="btn btn-theme mt-lg-0 mt-5" type="submit" name="subscribe" value="Subscribe">
+                    </form>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </section>
+        </main>
+        <div id="waterdrop" style="overflow: hidden; position: relative;">
+          <canvas height="150" width="1539" style="position: absolute; bottom: 0px; left: 0px;"></canvas>
+        </div>
+        <footer>
+          <div class="footer-detail">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="footer-brand mb-3">
+                    <img src="/sassaht.png" alt="">
+                  </div>
+                  <div class="brand-detail">
+                    <p>Sassaht - SaaS, Startup WebApp Prebuilt Template Is fully responsible, Sassaht is the Creative, Modern HTML5 Template. Sassaht is an the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-0 mt-sm-5">
+                  <h4 class="mb-4 text-white">Usefull link</h4>
+                  <div class="footer-list justify-content-between d-flex">
+                    <ul class="list-unstyled w-100">
+                     <li><a href="">About Us</a></li>
+                     <li><a href="">Service</a></li>
+                     <li><a href="">Team</a></li>
+                     <li><a href="">Team Single</a></li>
+                     <li><a href="">Contact Us</a></li>
+                    </ul>
+                    <ul class="list-unstyled  w-100">
+                     <li><a href="">Blog</a></li>
+                     <li><a href="">Faq</a></li>
+                     <li><a href="">Error 404</a></li>
+                     <li><a href="">Privacy Policy</a></li>
+                     <li><a href="">Terms</a></li>
+                    </ul>
+                  </div>
+            
+                </div>
+                <div class="col-lg-4 col-md-6 mt-md-5">
+                  <div class="footer-contact">
+                    <h4 class="mb-4 text-white">Get In Touch</h4>
+                    <div class="footer-address">
+                      <ul class="list-unstyled">
+                        <li><i class="ri-map-2-line"></i> 423B, Road Wordwide Country, USA</li>
+                        <li><i class="ri-mail-open-line"></i> <a href="mailto:themeht23@gmail.com">themeht23@gmail.com</a></li>
+                        <li><i class="ri-phone-line"></i> <a href="tel:+91-234-567-8900">+91-234-567-8900</a></li>
+                      </ul>
+                    </div>
+                    <div class="social-icons d-flex">
+                      <div class="link">
+                        <a href=""><i class="ri-facebook-fill"></i></a>
+                      </div>
+                      <div class="link ms-3">
+                        <a href=""><i class="ri-twitter-x-line"></i></a>
+                      </div>
+                      <div class="link ms-3">
+                        <a href=""><i class="ri-skype-fill"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="back-btn">
+          <a href="#top">
+            <i class="ri-arrow-up-double-line"></i>
+          </a>
+        </div>
+        <script src="/water-drop/jquery-ui.js"></script>
+        <script src="/water-drop/raindrops.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+        <script src="/index.js"></script>
+      </body>
+</html>
